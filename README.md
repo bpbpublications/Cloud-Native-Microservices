@@ -1,2 +1,2 @@
-# Cloud Native Microservices
- Cloud Native Microservices, by BPB Publications
+# Cloud Native Microservices Cookbook
+ Cloud Native Microservices Cookbook, by BPB Publications
