@@ -1,0 +1,6 @@
+sudo docker run --network=host -e MIN_HEAP_SIZE=256m -e MAX_HEAP_SIZE=512m \
+-e CONFIG_SERVER_URL=configserver:http://localhost:8888 \
+-e CONFIG_SERVER_USERNAME=fsmConfigAdmin -e CONFIG_SERVER_PASSWORD=password \
+-e DATABASE_URL=jdbc:postgresql://fs-marketplace.cbgzpif7rd3e.us-east-1.rds.amazonaws.com:5432/postgres \
+-e DATABASE_USERNAME=postgres -e DATABASE_PASSWORD=secret11 \
+enquiry-broadcast-1.0:latest

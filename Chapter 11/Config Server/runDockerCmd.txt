@@ -1,0 +1,5 @@
+sudo docker run --network=host -e MIN_HEAP_SIZE=256m -e MAX_HEAP_SIZE=512m \
+-e PROFILE=git \
+-e CONFIG_SERVER_USERNAME=fsmConfigAdmin -e CONFIG_SERVER_PASSWORD=password \
+-e GIT_PASSWORD=**** \
+config-server-1.0:latest
